@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Formulaire */
+  #task-form {
+    display: flex;
+  }
+  
+  #task-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #task-input:focus {
+    outline: none;
+  }
+  
+  #task-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #task-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Liste de tâches */
+  #task-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #task-list li {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #task-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #task-list li:before {
+    content: '\2713';
+    color: #4caf50;
+    font-weight: bold;
+    margin-right: 10px;
+  }

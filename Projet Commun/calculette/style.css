@@ -1,0 +1,35 @@
+#calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: 16px;
+  }
+  
+  #clear, #equals {
+    width: 86px;
+  }
+  
+  .number {
+    background-color: #f0f0f0;
+  }
+  
+  .operator {
+    background-color: #d0d0d0;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
